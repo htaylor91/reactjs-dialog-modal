@@ -25,7 +25,7 @@ const Modal = (
     ariaLabel
   }: ModalProps) => {
 
-  const dialogRef = useRef<HTMLDialogElement>(null);
+  const dialogRef = useRef<HTMLDialogElement | null>(null);
 
   useEffect(() => {
     if (dialogRef.current && !dialogRef.current.open && showModal) {

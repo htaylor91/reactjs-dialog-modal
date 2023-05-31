@@ -1,6 +1,6 @@
 {
   "name": "reactjs-dialog-modal",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ReactJS Dialog Modal component",
   "scripts": {
     "rollup-build-lib": "rollup -c"
